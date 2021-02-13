@@ -1,0 +1,204 @@
+stdClass Object
+(
+    [id] => 51dbdffa57fb429f40695266b1b46c40
+    [email_address] => ema@em.com
+    [unique_email_id] => 80e587b69b
+    [web_id] => 355976005
+    [email_type] => html
+    [status] => subscribed
+    [merge_fields] => stdClass Object
+        (
+            [FNAME] => Test
+            [LNAME] => 
+            [MMERGE3] => 
+            [MMERGE4] => 
+        )
+
+    [interests] => stdClass Object
+        (
+            [02a093c39f] => 
+            [c105db5cae] => 
+            [e6b7b044b8] => 
+            [6fcdb78b15] => 
+            [11bcfeb1b6] => 
+            [81c9ab1e06] => 
+            [c84f375016] => 
+            [c4844b8870] => 
+            [efcea2d922] => 
+            [36c4f3a687] => 
+            [7773f40a28] => 
+            [aff0e76f56] => 
+            [d015f4c192] => 
+            [fb9d412ad7] => 
+            [1871a9e7ab] => 
+            [5f305fe86d] => 
+            [bc5fab80b9] => 
+            [0807d46e1e] => 
+            [e08fd24080] => 
+            [1c259e590d] => 
+            [95b685f921] => 
+            [7b4d06c126] => 
+            [ee4a1f9675] => 
+            [d7d38eebf4] => 
+            [b70c6f879e] => 
+            [226e3ea5da] => 
+            [3be8dd5e96] => 
+            [b81772d13c] => 
+            [a5fa06fdab] => 
+            [09a2010db1] => 
+            [985e6b7e66] => 
+            [e9fa6f995b] => 
+            [e3ec4992db] => 
+            [493739331f] => 
+            [6a049de863] => 
+            [7fd73a3b91] => 
+            [1c958bd059] => 
+            [ff133f0e34] => 
+            [5546ff186e] => 
+            [9cc9284193] => 
+            [a4d1823429] => 
+            [9f363bebd3] => 
+            [f838c335f7] => 
+            [c40568f49e] => 
+            [2cabeddd05] => 
+            [fbf4c2b6b6] => 
+            [52ed1e9384] => 
+            [32f9c88258] => 
+            [7cc9f1008c] => 
+            [cc0a5b701a] => 
+            [2e513fff65] => 
+            [d7e70256f3] => 
+            [cd0e008c6e] => 
+            [9e56f7c9ac] => 
+            [8f68aa4050] => 
+        )
+
+    [stats] => stdClass Object
+        (
+            [avg_open_rate] => 0
+            [avg_click_rate] => 0
+        )
+
+    [ip_signup] => 
+    [timestamp_signup] => 
+    [ip_opt] => 71.218.42.72
+    [timestamp_opt] => 2021-02-02T22:03:22+00:00
+    [member_rating] => 2
+    [last_changed] => 2021-02-02T22:03:22+00:00
+    [language] => 
+    [vip] => 
+    [email_client] => 
+    [location] => stdClass Object
+        (
+            [latitude] => 0
+            [longitude] => 0
+            [gmtoff] => 0
+            [dstoff] => 0
+            [country_code] => 
+            [timezone] => 
+        )
+
+    [marketing_permissions] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [marketing_permission_id] => ff8a7c7041
+                    [text] => Email
+                    [enabled] => 
+                )
+
+        )
+
+    [source] => API - Generic
+    [tags_count] => 0
+    [tags] => Array
+        (
+        )
+
+    [list_id] => b9158f14a0
+    [_links] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [rel] => self
+                    [href] => https://us17.api.mailchimp.com/3.0/lists/b9158f14a0/members/51dbdffa57fb429f40695266b1b46c40
+                    [method] => GET
+                    [targetSchema] => https://us17.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json
+                )
+
+            [1] => stdClass Object
+                (
+                    [rel] => parent
+                    [href] => https://us17.api.mailchimp.com/3.0/lists/b9158f14a0/members
+                    [method] => GET
+                    [targetSchema] => https://us17.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/CollectionResponse.json
+                    [schema] => https://us17.api.mailchimp.com/schema/3.0/Paths/Lists/Members/Collection.json
+                )
+
+            [2] => stdClass Object
+                (
+                    [rel] => update
+                    [href] => https://us17.api.mailchimp.com/3.0/lists/b9158f14a0/members/51dbdffa57fb429f40695266b1b46c40
+                    [method] => PATCH
+                    [targetSchema] => https://us17.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json
+                    [schema] => https://us17.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/PATCH.json
+                )
+
+            [3] => stdClass Object
+                (
+                    [rel] => upsert
+                    [href] => https://us17.api.mailchimp.com/3.0/lists/b9158f14a0/members/51dbdffa57fb429f40695266b1b46c40
+                    [method] => PUT
+                    [targetSchema] => https://us17.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json
+                    [schema] => https://us17.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/PUT.json
+                )
+
+            [4] => stdClass Object
+                (
+                    [rel] => delete
+                    [href] => https://us17.api.mailchimp.com/3.0/lists/b9158f14a0/members/51dbdffa57fb429f40695266b1b46c40
+                    [method] => DELETE
+                )
+
+            [5] => stdClass Object
+                (
+                    [rel] => activity
+                    [href] => https://us17.api.mailchimp.com/3.0/lists/b9158f14a0/members/51dbdffa57fb429f40695266b1b46c40/activity
+                    [method] => GET
+                    [targetSchema] => https://us17.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Activity/Response.json
+                )
+
+            [6] => stdClass Object
+                (
+                    [rel] => goals
+                    [href] => https://us17.api.mailchimp.com/3.0/lists/b9158f14a0/members/51dbdffa57fb429f40695266b1b46c40/goals
+                    [method] => GET
+                    [targetSchema] => https://us17.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Goals/Response.json
+                )
+
+            [7] => stdClass Object
+                (
+                    [rel] => notes
+                    [href] => https://us17.api.mailchimp.com/3.0/lists/b9158f14a0/members/51dbdffa57fb429f40695266b1b46c40/notes
+                    [method] => GET
+                    [targetSchema] => https://us17.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Notes/CollectionResponse.json
+                )
+
+            [8] => stdClass Object
+                (
+                    [rel] => events
+                    [href] => https://us17.api.mailchimp.com/3.0/lists/b9158f14a0/members/51dbdffa57fb429f40695266b1b46c40/events
+                    [method] => POST
+                    [targetSchema] => https://us17.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Events/POST.json
+                )
+
+            [9] => stdClass Object
+                (
+                    [rel] => delete_permanent
+                    [href] => https://us17.api.mailchimp.com/3.0/lists/b9158f14a0/members/51dbdffa57fb429f40695266b1b46c40/actions/delete-permanent
+                    [method] => POST
+                )
+
+        )
+
+)

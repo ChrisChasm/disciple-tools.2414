@@ -1,0 +1,21 @@
+/**
+ * Plugin CSS
+ *
+ * @package disciple-tools.2414
+ * @developer Maroun Melhem <http://maroun.me>
+ * @version 1.0
+ *
+ */
+.dt2_page .dt2_disabled {
+    cursor: none;
+    pointer-events: none;
+    opacity: .6;
+}
+
+.dt2_page .dt2_rotate {
+    transform: rotate(180deg);
+}
+
+.dt2_page .dt2_cursor {
+    cursor: pointer;
+}
