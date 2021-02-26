@@ -122,7 +122,7 @@ class Dt2Init extends DT2Base
             $allDescriptionsOptions = $dt2Helper->dt2_get_descriptions();
             $allRegionsOptions = $dt2Helper->dt2_get_regions();
 
-            $dtc = DT_Posts::get_post( "contacts", $post_id, false);
+            $dtc = DT_Posts::get_post( "contacts", $post_id, true, false );
             if ( is_wp_error( $dtc ) ) {
                 $dt2Helper->dt2_log_to_file('mc_errors', $dtc);
                 return;
@@ -231,7 +231,7 @@ class Dt2Init extends DT2Base
             $allDescriptionsOptions = $dt2Helper->dt2_get_descriptions();
             $allRegionsOptions = $dt2Helper->dt2_get_regions();
 
-            $dtc = DT_Posts::get_post( "contacts",$post_id, false);
+            $dtc = DT_Posts::get_post( "contacts",$post_id, false, false);
             if ( is_wp_error( $dtc ) ) {
                 $dt2Helper->dt2_log_to_file('mc_errors', $dtc);
                 return;
