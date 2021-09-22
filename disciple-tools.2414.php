@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Disciple Tools - 2414 Mailchimp sync integration
+ * Plugin Name: Disciple.Tools - 2414 Mailchimp sync integration
  * Plugin URI: https://maroun.me
  * Description: Custom MailChimp sync integration for 2414 Disciple.Tools WordPress theme
  * Version: 1.0
